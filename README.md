@@ -1,7 +1,7 @@
 # AXON Topic Test Microservices
 
 ## Overview
-This project demonstrates event-driven communication between two Spring Boot microservices (`axon-service-a` and `axon-service-b`) using Axon. It includes Avro/JSON schema validation, event replay, ordering, idempotency, retries, and poison pill handling—all without Kafka.
+This project demonstrates event-driven communication between two Spring Boot microservices (`axon-service-a` and `axon-service-b`) using Axon. It includes Avro/JSON schema validation, event replay, ordering, idempotency, retries, and poison pill handling—all with and without Kafka.
 
 ## Microservices
 - **axon-service-a**: Emits events via REST endpoints using Axon (port 9090).
